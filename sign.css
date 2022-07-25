@@ -1,0 +1,86 @@
+body
+{
+margin: 0;
+padding: 0;
+background: #4AC7E7;
+}
+.container{
+    width: 80%;
+    height: 500px;
+    background: white;
+    margin: 5% auto;
+    border: 2px solid white;
+    box-shadow: 0px 35px 40px rgba(0, 0, 0, 0.7);
+}
+.container .left{
+    width: 60%;
+    float: left;
+    background-size: cover;
+    height: 490px;
+    padding: 5px 0;
+    background-image: linear-gradient(rgba(0,0,0,0),#ba5370),url(rock.jpg);
+    
+}
+.sign-up-form{
+    text-align: center;
+}
+h2{
+    margin: 3% auto;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.input{
+    width: 270px;
+    height: 4vh;
+}
+button{
+    width: 250px;
+    height: 5vh;
+    color: #fff;
+    background: #f9004d;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 18px 25px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:700px){
+    .container {
+    height: 700px;
+        width: 340px;
+    }
+    .container .left{
+        height: 200px;
+        width: 100%;
+
+    }
+    .sign-up-form{
+        height: 100px;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+    }
+    h2{
+        padding: 30px 5px;
+    }
+    .input{
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    
+    }
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 90px;
+        position: absolute;
+    }
+}
